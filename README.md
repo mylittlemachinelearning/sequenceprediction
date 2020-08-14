@@ -6,7 +6,7 @@ the goal is to train a model that will predict the next possible locations.
 Find a way to make predictions more accurate as more debris locations are uncovered.
 # the generated debris field training data
 the training data generator generates x half circular virtual (very simplified) debris fields as cartesian cordinates, then determines the convex hull.
-All coordinates are connected by a minnimum spanning tree, and the edges sorted in sequences starting from each point of the convex hull, following the next adjacent edge.
+All coordinates are connected by a minimum spanning tree, and the edges sorted in sequences starting from each point of the convex hull, following the next adjacent edge.
 This results in n sequences of edges per simulated field.
 
 # TODO
